@@ -1,14 +1,42 @@
+:root {
+  --color-primaryLighter: #9c86f9;
+  --color-primaryLight: #6f4ef6;
+  --color-primaryMain: #4b22f4;
+  --color-primaryDark: #3417aa;
+  --color-secondaryLighter: #D2FAF6;
+  --color-secondaryLight: #49F2D2;
+  --color-secondaryMain: #0BD4C1;
+  --color-secondaryDark: #0B756F;
+  --color-white: #ffffff;
+  --color-background: #f5f7f9;
+  --color-black: #1a1c31;
+  --color-gray: #c2cbd6;
+  --color-accent: #f8e71b;
+
+  --screen-sm: 640px;
+  --screen-md: 768px;
+  --screen-lg: 1024px;
+  --screen-xl: 1280px;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-black);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: var(--color-primaryDark);
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  color: var(--color-primaryLight);
 }
 
 * {
